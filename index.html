@@ -1,0 +1,257 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+    <link rel="stylesheet" href="asset/style.css" />
+    <title>Custom Web Ucapan</title>
+    <style>
+        body {
+            background-image: url('D:/kartu/kartu/bg.jpg');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+        }
+        header {
+            text-align: left;
+            color: rgb(52, 106, 106);
+            font-size: 20px;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            background-color: goldenrod;
+        }
+        .navlist {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            margin-left: auto;
+        }
+        .navlist li {
+            margin: 0 10px;
+        }
+        .navlist a {
+            text-decoration: none;
+            color: rgb(52, 106, 106);
+            border-color: rgb(183, 222, 222);
+            background-color: rgb(183, 222, 222);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .btn-border {
+            border: 1px solid rgb(52, 106, 106);
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        #menu-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+
+        .home { 
+            padding: 60px;
+            margin-top: 100px; 
+        } 
+        header {  
+            margin-bottom: 100px; 
+        }
+        .fitur {
+            padding: 20px;
+            margin-top: 200px;
+            margin-bottom: 100px;
+        }
+
+        .fitur-content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 1000px;
+            justify-content: center;
+            margin-left: 250px;
+        }
+
+        .fitur-item {
+            width: 100px; /* Adjust the width as needed */
+            margin-bottom: 10px; 
+            justify-content: center;
+        }
+
+        .icon {
+            font-size: 40px;
+        }
+
+        .theme-content {
+            display: flex; 
+            justify-content: space-around;
+            margin-right: 500pt;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <a><strong>FADHILAWEB</strong></a>
+
+            <ul class="navlist">
+                <li><a href="#home" class="">Home</a></li>
+                <li><a href="#theme">Tema</a></li>
+                <li>
+                    <a href="https://www.instagram.com/ccimool11?igsh=MWsycWtsYmRlbDlzbA==" class="btn-border"><i class="bx bxl-instagram"></i>Pesan Sekarang</a>
+                </li>
+            </ul>
+
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h1 style="color: rgb(52, 106, 106); font-size: 50px;">Custom Website Ucapan Online</h1>
+                <p style="font-size: 20px;">Berikan ucapan ulang tahun, anniversary, dan lainnya dengan cara yang unik dan menarik. Pesan
+                    sekarang juga!</p>
+                <a style="color: rgb(52, 106, 106);
+                border-color: goldenrod;
+                background-color: goldenrod;
+                padding: 5px 10px;
+                border-radius: 5px;
+                text-decoration: none;
+                font-size: 27px;" href="#theme" class="btn-border">Lihat Tema</a>
+            </div>
+            <div class="home-img">
+                <img src="asset/home.webp" alt="" />
+            </div>
+        </section>
+
+        <section class="fitur" id="fitur">
+            <div class="middle-text">
+                <h2 style="color: rgb(52, 106, 106); font-size: 30px; text-align: center;">Apa Yang Kamu Dapatkan?</h2>
+                <p style="font-size: 20px; text-align: center;">Kami akan membuat website ucapan yang kamu butuhkan dan inginkan</p>
+            </div>
+
+            <div class="fitur-content">
+                        <div style="
+                        border-color: goldenrod;
+                        background-color: goldenrod;
+                        padding: 5px 10px;
+                        display: inline-block; 
+                        border-radius: 10px;
+                        margin-right: 40px;
+                        " class="fitur-item">
+                            <div class="icon">
+                                <i class="bx bxs-edit"></i>
+                            </div>
+                            <h3>All Custom</h3>
+                            <p>Bisa custom ucapan, foto dan musik sesuai keinginan</p>
+                        </div>
+
+                        <div style="
+                        border-color: goldenrod;
+                        background-color: goldenrod;
+                        padding: 5px 10px;
+                        display: inline-block; 
+                        border-radius: 10px;
+                        margin-right: 40px;
+                        " class="fitur-item">
+                            <div class="icon">
+                                <i class="bx bx-timer"></i>
+                            </div>
+                            <h3>Proses Pengerjaan Cepat</h3>
+                            <p>Pesan hari ini jadi hari ini juga</p>
+                        </div>
+
+                        <div style="
+                        border-color: goldenrod;
+                        background-color: goldenrod;
+                        padding: 5px 10px;
+                        display: inline-block; 
+                        border-radius: 10px;
+                        margin-right: 40px;
+                        " class="fitur-item">
+                            <div class="icon">
+                                <i class="bx bx-heart-square"></i>
+                            </div>
+                            <h3>Request Tema</h3>
+                            <p>Wujudkan tema sesuai konsep yang kamu inginkan</p>
+                        </div>
+
+                        <div style="
+                        border-color: goldenrod;
+                        background-color: goldenrod;
+                        padding: 5px 10px;
+                        display: inline-block; 
+                        border-radius: 10px;
+                        margin-right: 40px;
+                        " class="fitur-item">
+                            <div class="icon">
+                                <i class="bx bx-bookmark-heart"></i>
+                            </div>
+                            <h3>Tanpa Watermark</h3>
+                            <p>Website bebas dari watermark</p>
+                        </div>
+
+                        <div style="
+                        border-color: goldenrod;
+                        background-color: goldenrod;
+                        padding: 5px 10px;
+                        display: inline-block; 
+                        border-radius: 10px;
+                        margin-right: 40px;
+                        " class="fitur-item">
+                            <div class="icon">
+                                <i class="bx bx-link"></i>
+                            </div>
+                            <h3>Custom Link</h3>
+                            <p>Gunakan nama kamu atau orang yang kamu sayang sebagai link</p>
+                        </div>
+            </div>            
+        </section>
+
+        <section style="padding-top: 100px;" class="theme" id="theme">
+            <div class="middle-text">
+                <h2 style="color: rgb(52, 106, 106); font-size: 30px; text-align: center;">Tema</h2>
+                <p style="font-size: 20px; text-align: center;">Pilih Tema Sesuai Yang Kamu Inginkan</p>
+            </div>
+            <div class="theme-content">
+                
+<div class="theme-item">
+    <img style="width: 200px; height: auto; border-image: auto; border-radius: 20px; margin-left: 40px;" src="FAD1.png" alt="" />
+    <div style="text-align: center; margin-left: 40px; width: 200px; height: auto; " class="bottom">
+        <h4>FAD1</h4>
+        <a style="border-color: goldenrod; background-color: goldenrod; text-decoration: none; color: black; padding: 5px 10px; " href="D:/kartu/kartu/kartu%20ucapan%201/membuka_pesan.html" class="s-btn">Preview</a>
+    </div>
+</div>
+
+<div class="theme-item">
+    <img style="width: 200px; height: 166pt; border-image: auto; border-radius: 20px; margin-left: 40px;" src="FAD2.png" alt="" />
+    <div style="text-align: center; margin-left: 40px; width: 200px; height: auto; " class="bottom">
+        <h4>FAD2</h4>
+        <a style="border-color: goldenrod; background-color: goldenrod; text-decoration: none; color: black; padding: 5px 10px; " href="D:/kartu/kartu/kartu%20ucapan%202/membuka_pesan.html" class="s-btn">Preview</a>
+    </div>
+</div>
+
+            </div>
+        </section>
+
+        <section style="padding-top: 250px;" class="cta" id="cta">
+            <div class="middle-text">
+                <h2>Tunggu Apa Lagi?</h2>
+                <p>Pesan sekarang juga dan berikan kejutan untuk orang yang kamu sayang!</p>
+            </div>
+            <a href="https://www.instagram.com/ccimool11?igsh=MWsycWtsYmRlbDlzbA==" class="btn"><i class="bx bxl-instagram"></i> Pesan
+                Sekarang</a>
+        </section>
+
+</body>
+
+</html>
